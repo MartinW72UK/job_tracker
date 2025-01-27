@@ -60,4 +60,5 @@ if not status_counts.empty:
 else:
     st.write("No data available for the selected filters.")
 
-print("Suspected ghost jobs are a posted job listing with no intention to hire, often used for appearances or candidate harvesting.")
+# Ghost job explanation
+st.caption("Suspected ghost jobs are a posted job listing with no intention to hire, often used for appearances or candidate harvesting.")
